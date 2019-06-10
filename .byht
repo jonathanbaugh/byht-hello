@@ -1,6 +1,5 @@
 ---
-- name: hello-world
-  description: Hello world example
-  install:
-    sh: echo "Hello world"
-
+name: hello-world
+description: Hello world example
+scripts:
+  hello: bin/hello.sh
